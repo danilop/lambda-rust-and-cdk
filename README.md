@@ -1,4 +1,4 @@
-# Lamdba, Rust, and CDK
+# Lambda, Rust, and CDK
 
 This is an [AWS CDK](https://aws.amazon.com/cdk/) project in [TypeScript](https://www.typescriptlang.org) building two [AWS Lambda](https://aws.amazon.com/lambda/) functions developed using [Rust](https://www.rust-lang.org). It's meant as a showcase to share my experience of using Rust with AWS Lambda. I am interested in Rust because it is a very secure and efficient programming language.
 
