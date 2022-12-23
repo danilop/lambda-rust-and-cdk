@@ -6,7 +6,7 @@ This is an [AWS CDK](https://aws.amazon.com/cdk/) project in [TypeScript](https:
 
 The two Lambda functions are in the `/resources` folder:
 
-- `my-function` is a Lambda function packaged using the ZIP format and written in Rust using the Lambda Rust Runtime that uses [Lambda function URLs](https://docs.aws.amazon.com/lambda/latest/dg/lambda-urls.html) to receive and respond to web requests.
+- `my-function` is a Lambda function packaged using the ZIP format and written in Rust with the [AWS Lambda Rust Runtime](https://github.com/awslabs/aws-lambda-rust-runtime). This function uses [Lambda function URLs](https://docs.aws.amazon.com/lambda/latest/dg/lambda-urls.html) to receive and respond to web requests.
 
 - `my-web-app`  is a Lambda function [packaed as a container image](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-images.html) using the [AWS Lambda Web Adapter](https://github.com/awslabs/aws-lambda-web-adapter) to run a Rust web app built using the [Actix Web](https://actix.rs) framework. This function is also using Lambda function URLs.
 
